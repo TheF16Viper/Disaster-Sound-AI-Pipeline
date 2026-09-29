@@ -1,0 +1,13 @@
+# Ignore heavy audio dataset directories
+mock_dataset/
+advanced_dataset/
+real_dataset/
+
+# Ignore compiled binary model weights
+*.joblib
+
+# Ignore temporary sound streams and operating system configurations
+temp_live_stream.wav
+.DS_Store
+__pycache__/
+.streamlit/
